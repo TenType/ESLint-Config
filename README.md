@@ -39,4 +39,12 @@ npm install <a href="https://www.npmjs.com/package/@typescript-eslint/eslint-plu
 3. Create a `.eslintrc.json` file with the [TS configurations](typescript/.eslintrc.json) located in this repository.
 	- Make sure you also have [TypeScript](https://www.npmjs.com/package/typescript) installed for the parser to work correctly.
 
-4. **Done!** ESLint should be up and running with TypeScript!
+4. Lastly, if you are using Visual Studio Code, add the following line to your settings.json to make sure that the parser will scan TypeScript files:
+	- To open up your settings.json file, open the command palette (ctrl+shift+P, or cmd+shift+P on Mac) then search for the "Open Settings (JSON)" option.
+```json
+{
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+}
+```
+
+5. **Done!** ESLint should be up and running with TypeScript!
