@@ -5,7 +5,7 @@
 	},
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
-		"ecmaVersion": 2021
+		"ecmaVersion": "latest"
 	},
 	"rules": {
 		"constructor-super": "error",
@@ -98,7 +98,7 @@
 		"quotes": ["warn", "single", { "avoidEscape": true }],
 		"semi": ["warn", "always"],
 		"semi-spacing": "warn",
-		"semi-style": "error",
+		"semi-style": "warn",
 		"space-before-blocks": "warn",
 		"space-before-function-paren": ["warn", {
 			"anonymous": "never",
