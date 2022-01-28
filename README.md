@@ -24,7 +24,7 @@ npm install <a href="https://www.npmjs.com/package/@babel/core">@babel/core</a> 
 4. Lastly, create a `.eslintrc.json` file with the [JS configurations](javascript/.eslintrc.json) located in this repository.
 	- The configuration in this repository uses the Babel parser, but if you did not install any Babel dependencies from step 2, make sure to remove the parser option in the config file.
 
-5. **Done!** ESLint should be up and running with JavaScript!
+5. **Done!** After reloading your editor, ESLint should be up and running with JavaScript!
 
 ## TypeScript Installation
 > :warning: **The TypeScript configurations are a work in progress, please check back later for updates.**
@@ -47,4 +47,4 @@ npm install <a href="https://www.npmjs.com/package/@typescript-eslint/eslint-plu
 }
 ```
 
-5. **Done!** ESLint should be up and running with TypeScript!
+5. **Done!** After reloading your editor, ESLint should be up and running with TypeScript!
