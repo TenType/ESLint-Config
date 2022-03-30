@@ -88,7 +88,7 @@
 		"comma-spacing": "warn",
 		"comma-style": "warn",
 		"dot-location": ["warn", "property"],
-		"indent": ["warn", "tab"],
+		"indent": ["warn", 4],
 		"keyword-spacing": "warn",
 		"no-floating-decimal": "warn",
 		"no-multi-spaces": "warn",

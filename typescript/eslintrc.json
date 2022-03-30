@@ -91,7 +91,7 @@
 		"@typescript-eslint/comma-spacing": "warn",
 		"comma-style": "warn",
 		"dot-location": ["warn", "property"],
-		"@typescript-eslint/indent": ["warn", "tab"],
+		"@typescript-eslint/indent": ["warn", 4],
 		"keyword-spacing": "warn",
 		"no-floating-decimal": "warn",
 		"no-multi-spaces": "warn",
